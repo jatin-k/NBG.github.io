@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background: url(madison-bracaglia--kxED2shuUg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode:color-dodge;
+    opacity: 0.5;
+    
+}
+
+body header {
+    width: 100%;
+    height:300px;
+    
+    text-align: center;
+    position: relative;
+
+}
+
+.logo {
+    height: 150px;
+    width: 240px;
+    
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transition: (-50%, -50%);
+    box-sizing: border-box;
+
+}
+
+.NB{
+    height: 100px;
+    width: 160px;
+    color: rgba(17, 49, 154, 1);
+    float: left;
+    font-family:'Gelasio';
+    font-size: 80px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+.G {
+    height: 100px;
+    width: 80px;
+    color: yellow;
+    float: right;
+    font-family: 'Gelasio';
+    font-size: 80px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.text {
+    height: 50px;
+    width: 240px;
+    color: black;
+    font-size: 20px;
+    font-family: "Ubuntu";
+    
+}
+
+.swap {
+    height: 60px;
+    width: 100%;
+    color: black;
+    font-family: "Ubuntu";
+    text-align: center;
+    font-size: 10px;
+}

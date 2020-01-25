@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Smart ATM</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Kulim+Park|Muli|Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="yes.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gelasio&display=swap" rel="stylesheet">
+	<STYLE>A {text-decoration: none;} </STYLE>
+
+</head>
+<body>
+	<header>
+		<div class="logo" title="Nation Bank Group">
+				<div class="NB">  N  B
+					
+				</div>
+				
+				<div class="G"> G
+					
+				</div>
+				<div class="text">
+					 <p>we make ways<sup>@</sup> </p>
+				</div>	
+		</div>	
+		<br><br>
+		<p>
+		<div class="box">
+			<p>
+			<div class="accname">ACCOUNT NAME</div>
+			<div class="username">
+				<br>Naman Ahuja</div> <!--      users name should be displaye here which can be done with the help of 												  back end -->
+			</p>
+		</div>
+		</p>
+		<a href="index.html">
+			<div class="cancel">
+				 <b>X</b> Cancel
+			</div>
+		</a>
+
+	</header>
+
+	<main>
+		<br><br><br>
+		<p style="font-family: Ubuntu; font-size: 30px; color: black; ">Please enter your PIN</p>
+		<hr>
+		<div class="pin">
+			<table>
+				<tr>
+					<td>
+						<p style="font-family: Ubuntu; font-size: 20px; color: black; "> Enter Pin : </p>
+					</td>
+					<td>
+						<form action="/pinprocessing" method="POST">
+							<input type="password" name="pin" style="font-size: 20px; font-family: Ubuntu"; placeholder="Enter your pin here">
+							<input type="submit" style="font-family: Ubuntu; font-size: 20px";>
+						</form>
+					</td>
+				</tr>
+		</table>
+		</div>
+		<a href="transaction.html">Link to transaction.html</a>
+
+		<div class="important">
+			NOTE : 
+			
+			Your PIN is confidential Nobody should see the PIN while you are entering it. Make your PIN more secure by changing it frequently.
+			
+		</div>
+
+
+	</main>
+	
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Smart ATM</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Kulim+Park|Muli|Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="amount.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gelasio&display=swap" rel="stylesheet">
+	<STYLE>A {text-decoration: none;} </STYLE>
+
+</head>
+<body>
+	<header>
+		<div class="logo" title="Nation Bank Group">
+				<div class="NB">  N  B
+					
+				</div>
+				
+				<div class="G"> G
+					
+				</div>
+				<div class="text">
+					 <p>we make ways<sup>@</sup> </p>
+				</div>	
+		</div>	
+		<br><br>
+		<p>
+		<div class="box">
+			<p>
+			<div class="accname">ACCOUNT NAME</div>
+			<div class="username">
+				<br>Naman Ahuja</div> <!--      users name should be displaye here which can be done with the help of 												  back end -->
+			</p>
+		</div>
+		</p>
+		<a href="index.html">
+			<div class="cancel">
+				 <b>X</b> Cancel
+			</div>
+		</a>
+
+	</header>
+
+	<main>
+		<br><br><br>
+		<p style="font-family: Ubuntu; font-size: 30px; color: black; ">Enter Amount</p>
+		<hr>
+		<table>
+			<tr>
+				<td>
+					<p style="font-family: Ubuntu; font-size: 20px; color: black; "> Enter Amount : </p>
+				</td>
+				<td>
+					<form action="/amtprocessing" method="POST">
+						<input type="number" name="amount" placeholder="Enter amount here" style="font-size: 20px; font-family: Ubuntu";>
+					</form>
+				</td>
+			</tr>
+				<p style="font-family: Ubuntu; font-size: 20px; color: black; ">     *Enter amount in multiples of 100</p>
+				
+		</table>
+
+		<a href="end.html">
+			<div class="box1">
+				<p>Press to   collect cash</p>
+			</div>
+		</a>
+	</main>
+	
+
+</body>
+</html>
